@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebOS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/barraTarefas.css">
+    <link rel="stylesheet" href="css/barraCima.css">
+    <link rel="stylesheet" href="css/window.css">
+</head>
+
+<body>
+    <div class="barraCima">My own WebOS</div>
+    <div class="desktop">
+ 
+        <div id="welcome" class="janela">
+            <div id="welcomeheader" class="tituloJanela">
+                <div id="welcomeclose" class="closebutton"></div>
+                <span>Welcome.txt</span>
+            </div>
+
+            <div class="conteudoJanela">
+                <h2>Welcome to my OS</h2>
+                <p>Eat lots of cookies 🍪</p>
+                <a href="https://stardance.hackclub.com/@AdaChan">My Profile in Stardance</a>
+                <br><br>
+                <img src="img/miku.png" alt="Hatsune Miku" width="128" height="128">
+            </div>
+        </div>
+
+        <div id="cat" class="janela">
+            <div id="catheader" class="tituloJanela">
+                <div id="catclose" class="closebutton"></div>
+                <span>Cat Viewer</span>
+            </div>
+
+            <div class="conteudoJanela">
+                <img id="catImage" src="https://cataas.com/cat" alt="Random Cat" width="250">
+                <br><br>
+                <button id="newCatButton">New Cat 🐱</button>
+            </div>
+        </div>
+
+        <div id="desktopApps">
+            <div id="welcomeopen" class="desktop-icon">
+                <img src="img/miku.png" alt="Welcome">
+                <p>Welcome</p>
+            </div>
+
+            <div id="catopen" class="desktop-icon">
+                <img src="img/cat.png" alt="Cat">
+                <p>Cat Viewer</p>
+            </div>
+        </div>
+
+    </div>
+    
+<div class="barraTarefas">
+    <div id="timeElement">Loading time</div>
+</div>
+
+    <script src="js/script.js"></script>
+    <script src="js/catview.js"></script>
+    <script src="js/welcome.js"></script>
+
+</body>
+</html>
