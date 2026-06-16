@@ -1,22 +1,12 @@
 # MyWebOS
+This is my own operating system that can run on the web. I used HTML, CSS, and JavaScript to create it.
 
-MyWebOS is a mini operating system designed to run in a browser, created for practicing HTML, CSS, and JavaScript.
+## It has 3 apps/features:
+- Welcome - an app that opens whenever someone accesses the page, containing basic information and a picture of Miku =)
+- Cat Viewer - an app that shows a picture of a cat whenever you press the button
+- NASA Viewer - an app that shows daily information about space
 
-Live Demo: https://hallow303.github.io/MyownWebOS/
+## How to use
+To test my WebOS, simply go to: https://hallow303.github.io/MyownWebOS/
 
-
-## Features
-
-* 🕒 Real-time clock
-* 🪟 Draggable windows
-* 😺 Cat Viewer with random images
-* 🚀 NASA Viewer using the APOD API
-* 📄 Welcome window
-
-## Technologies
-
-* HTML
-* CSS
-* JavaScript
-* NASA APOD API
-* Cataas API
+<img src="img/webos.png" width="500"/>
