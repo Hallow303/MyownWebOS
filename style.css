@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap");
+
+body {
+    margin: 0;
+    background-image: url("https://wallpaperaccess.com/full/385739.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.barra-tarefas {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    padding: 0 10px;
+    background: navy;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#relogio {
+    color: #fba7a7;
+    background: rgba(255,255,255,0.15);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.fecha-botao{
+    width: 15px;
+    height: 15px;
+    background: #c1453e;
+    border-radius: 50%;
+    border:  1px  solid #000000;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.desktop-icon{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.desktop-icon:hover {
+    background: rgba(0, 0, 128, 0.15);
+}
+
+.desktop-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.desktop-icon p {
+    margin: 4px 0;
+}
+
+
+.janela {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    background: white;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+}
+
+.titulo-janela {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px;
+    background: navy;
+    color: white;
+    font-weight: bold;
+    cursor: move;
+    user-select: none;
+}
+
+#imagem-nasa{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.conteudo-janela {
+    padding: 12px;
+}
+
+#gato .conteudo-janela {
+    text-align: center;
+}
+
+.conteudo-janela input {
+    width: 80%;
+    padding: 6px;
+    margin: 4px 0;
+}
+
+.conteudo-janela button {
+    padding: 6px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+#nasaapp {
+    width: 420px;
+}
+
+#nasaapp .conteudoJanela {
+    background: #ece9d8;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo-nasa {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: navy;
+}
+
+#imagem-nasa {
+    width: 100%;
+    max-height: 220px;
+    border: 2px solid #808080;
+    object-fit: cover;
+    background: white;
+}
+
+#nasa-texto {
+    margin-top: 10px;
+    padding: 8px;
+    background: white;
+    border: 2px inset #c0c0c0;
+    text-align: left;
+    font-size: 13px;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+#nasa-app button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-family: inherit;
+    background: #d4d0c8;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    cursor: pointer;
+}
+
+#nasa-app button:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}

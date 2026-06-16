@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="desktop">
+
+        <!-- app de bem vindo -->
+         <div id="bem-vindo" class="janela">
+            <div id="bem-vindo-header" class="titulo-janela">
+                <div id="fecha-bem-vindo" class="fecha-botao"></div>
+                <span>Welcome.txt</span>
+            </div>
+
+            <div class="conteudo-janela">
+                <h2>Welcome to my WebOs</h2>
+                <p>Eat lots of cookies 🍪</p>
+
+                <a href="https://stardance.hackclub.com/@AdaChan">
+                    My Profile in Stardance
+                </a>
+
+                <br>
+
+                <img src="img/miku.png" alt="Hatsune Miku" width="128" height="128">
+            </div>
+         </div>
+
+         <div  id="nasa-app" class="janela" style="display: none;">
+            <div id="nasa-header" class="titulo-janela">
+                <div id="fecha-nasa" class="fecha-botao"></div>
+                <span>Nasa Viewer</span>
+            </div>
+
+            <div class="conteudo-janela">
+                <h3 id="titulo-nasa">Loading...</h3>
+
+                <img id="imagem-nasa" src="" alt="Nasa IMG" width="300">
+                <p id="nasa-texto"></p>
+            </div>
+         </div>
+
+         <div id="gato" class="janela" style="display: none;">
+            <div id="gato-header" class="titulo-janela">
+                <div id="fecha-gato" class="fecha-botao"></div>
+                <span>Cat Viewer</span>
+            </div>
+
+            <div class="conteudo-janela">
+                <img id="imagem-gato" src="https://cataas.com/cat" alt="Rndom Cat" width="250">
+                <br>
+                <button id="novo-gato"> New Cat 😺</button>
+            </div>
+         </div>
+
+         <!-- Iconis dos app no desktop -->
+        <div id="desktopApps">
+            <div id="abrir-bem-vindo" class="desktop-icon">
+                <img src="img/welcome.png" alt="Welcome">
+                <p>Welcome</p>
+            </div>
+
+            <div id="abrir-gato" class="desktop-icon">
+                <img src="img/cat.png" alt="Cat">
+                <p>Cat Viewer</p>
+            </div>
+
+            <div id="abrir-nasa" class="desktop-icon">
+                <img src="img/nasa.png" alt="Nasa">
+                <p>Nasa Viewer</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="barra-tarefas">
+        <div id="relogio">Loading...</div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
